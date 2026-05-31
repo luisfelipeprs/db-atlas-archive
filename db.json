@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Maria Santos",
+      "email": "maria@email.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "reader"
+    },
+    {
+      "id": "2",
+      "name": "João Souza",
+      "email": "joao@email.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "author"
+    },
+    {
+      "id": "e1a7",
+      "name": "Lipe",
+      "email": "lipe@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "reader"
+    },
+    {
+      "id": "6a0c",
+      "name": "I",
+      "email": "lipe@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "reader"
+    },
+    {
+      "id": "035a",
+      "name": "Luis Felipw",
+      "email": "luis@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "reader"
+    },
+    {
+      "id": "f745",
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "avatar": null,
+      "role": "reader",
+      "birthDate": "04/04/2004"
+    },
+    {
+      "name": "Douglas Vecchi",
+      "email": "douglasteste@gmail.com",
+      "password": "teste123",
+      "avatar": null,
+      "role": "reader",
+      "birthDate": "28/08/2001",
+      "id": "6kljNstsXNs"
+    },
+    {
+      "name": "tiago",
+      "email": "tiago@gmail.com",
+      "password": "lostefoda",
+      "avatar": null,
+      "role": "reader",
+      "birthDate": "19/08/1994",
+      "id": "qFcvv1GxOi4"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "isbn": "9788535912449",
+      "cover": "https://covers.openlibrary.org/b/isbn/9788535912449-M.jpg",
+      "description": "A história de Bentinho e Capitu, uma das maiores obras da literatura brasileira. Um romance sobre ciúme, dúvida e memória que continua gerando debates até hoje.",
+      "category": "Drama",
+      "fileUrl": "http://localhost:3001/files/dom-casmurro.pdf",
+      "format": "pdf",
+      "pages": 256,
+      "rating": 4.8,
+      "downloads": 1200,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "2",
+      "title": "O Cortiço",
+      "author": "Aluísio Azevedo",
+      "isbn": "9788508044702",
+      "cover": "https://covers.openlibrary.org/b/isbn/9788508044702-M.jpg",
+      "description": "Romance naturalista que retrata a vida em um cortiço no Rio de Janeiro do século XIX. Uma crítica social poderosa sobre desigualdade e exploração.",
+      "category": "Ficção",
+      "fileUrl": "http://localhost:3001/files/o-cortico.pdf",
+      "format": "pdf",
+      "pages": 312,
+      "rating": 4.3,
+      "downloads": 890,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "3",
+      "title": "Memórias Póstumas de Brás Cubas",
+      "author": "Machado de Assis",
+      "isbn": "9788535921823",
+      "cover": "https://covers.openlibrary.org/b/isbn/9788535921823-M.jpg",
+      "description": "Narrado por um defunto autor, este romance revolucionário quebra todas as convenções literárias de sua época com humor e ironia inigualáveis.",
+      "category": "Ficção",
+      "fileUrl": "http://localhost:3001/files/bras-cubas.pdf",
+      "format": "pdf",
+      "pages": 208,
+      "rating": 4.9,
+      "downloads": 1500,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "4",
+      "title": "A Moreninha",
+      "author": "Joaquim Manuel de Macedo",
+      "cover": null,
+      "description": "Considerado o primeiro romance brasileiro de sucesso, conta a história de amor entre Augusto e Carolina na Ilha de Paquetá.",
+      "category": "Romance",
+      "fileUrl": "http://localhost:3001/files/a-moreninha.pdf",
+      "format": "pdf",
+      "pages": 180,
+      "rating": 4.1,
+      "downloads": 650,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "5",
+      "title": "Iracema",
+      "author": "José de Alencar",
+      "cover": null,
+      "description": "Poema em prosa que narra o amor entre a índia Iracema e o colonizador português Martim, uma alegoria da formação do povo brasileiro.",
+      "category": "Poesia",
+      "fileUrl": "http://localhost:3001/files/iracema.pdf",
+      "format": "pdf",
+      "pages": 144,
+      "rating": 4.4,
+      "downloads": 780,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "6",
+      "title": "O Guarani",
+      "author": "José de Alencar",
+      "cover": null,
+      "description": "Romance indianista que narra as aventuras de Peri, um índio goitacá, e seu amor impossível por Ceci, filha de um fidalgo português.",
+      "category": "História",
+      "fileUrl": "http://localhost:3001/files/o-guarani.pdf",
+      "format": "pdf",
+      "pages": 420,
+      "rating": 4.2,
+      "downloads": 540,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "7",
+      "title": "Vidas Secas",
+      "author": "Graciliano Ramos",
+      "isbn": "9788501007797",
+      "cover": "https://covers.openlibrary.org/b/isbn/9788501007797-M.jpg",
+      "description": "Obra-prima do regionalismo brasileiro que retrata a vida miserável de uma família de retirantes no sertão nordestino.",
+      "category": "Drama",
+      "fileUrl": "http://localhost:3001/files/vidas-secas.pdf",
+      "format": "pdf",
+      "pages": 176,
+      "rating": 4.7,
+      "downloads": 980,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "8",
+      "title": "Capitães da Areia",
+      "author": "Jorge Amado",
+      "isbn": "9788535911695",
+      "cover": "https://covers.openlibrary.org/b/isbn/9788535911695-M.jpg",
+      "description": "A história de um grupo de meninos de rua que vivem em um trapiche abandonado em Salvador, liderados pelo destemido Pedro Bala.",
+      "category": "Ficção",
+      "fileUrl": "http://localhost:3001/files/capitaes-areia.pdf",
+      "format": "pdf",
+      "pages": 280,
+      "rating": 4.6,
+      "downloads": 1100,
+      "isPublicDomain": true,
+      "uploadedBy": null
+    },
+    {
+      "id": "eded",
+      "title": "Admirável Mundo Novo",
+      "author": "Aldous Huxley",
+      "isbn": "9780060850524",
+      "cover": "https://covers.openlibrary.org/b/isbn/9780060850524-M.jpg",
+      "description": "Livro adicionado pelo usuário",
+      "category": "Geral",
+      "fileUrl": "blob:http://localhost:8081/51bb2f24-8b08-4429-87a1-8836f1d89e35",
+      "format": "pdf",
+      "pages": 0,
+      "rating": 0,
+      "downloads": 0,
+      "isPublicDomain": false,
+      "uploadedBy": "38fa"
+    },
+    {
+      "title": "Manifesto communist",
+      "author": "Karl Marx",
+      "description": "Livro adicionado pelo usuário",
+      "category": "Geral",
+      "fileUrl": "file:///data/user/0/host.exp.exponent/files/1780100572883-Manifesto-1.pdf",
+      "format": "pdf",
+      "pages": 0,
+      "rating": 0,
+      "downloads": 0,
+      "isPublicDomain": false,
+      "uploadedBy": "qFcvv1GxOi4",
+      "cover": null,
+      "id": "fL7R0YqFhV0"
+    },
+    {
+      "title": "o-capital-livro-1",
+      "author": "karl Marx",
+      "description": "Livro adicionado pelo usuário",
+      "category": "Geral",
+      "fileUrl": "file:///data/user/0/host.exp.exponent/files/1780100892163-o-capital-livro-1.pdf",
+      "format": "pdf",
+      "pages": 0,
+      "rating": 0,
+      "downloads": 0,
+      "isPublicDomain": false,
+      "uploadedBy": "qFcvv1GxOi4",
+      "cover": "https://covers.openlibrary.org/b/id/10675319-M.jpg",
+      "id": "g-kmBNuB3N4"
+    },
+    {
+      "title": "Manifesto-1",
+      "author": "Karl marx",
+      "description": "Livro adicionado pelo usuário",
+      "category": "Geral",
+      "fileUrl": "file:///data/user/0/host.exp.exponent/files/1780100924560-Manifesto-1.pdf",
+      "format": "pdf",
+      "pages": 0,
+      "rating": 0,
+      "downloads": 0,
+      "isPublicDomain": false,
+      "uploadedBy": "qFcvv1GxOi4",
+      "cover": "https://covers.openlibrary.org/b/id/11048623-M.jpg",
+      "id": "ZvqZQyqQ4_Y"
+    }
+  ],
+  "library": [
+    {
+      "id": "1",
+      "userId": "1",
+      "bookId": "1",
+      "addedAt": "2026-01-01"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "bookId": "3",
+      "addedAt": "2026-01-10"
+    },
+    {
+      "id": "a020",
+      "userId": "38fa",
+      "bookId": "eded",
+      "addedAt": "2026-03-20"
+    },
+    {
+      "id": "dd8e",
+      "userId": "f745",
+      "bookId": "1",
+      "addedAt": "2026-05-04"
+    },
+    {
+      "id": "9f8f",
+      "userId": "f745",
+      "bookId": "2",
+      "addedAt": "2026-05-04"
+    },
+    {
+      "userId": "qFcvv1GxOi4",
+      "bookId": "fL7R0YqFhV0",
+      "addedAt": "2026-05-30",
+      "id": "9qA0dGyI_ew"
+    },
+    {
+      "userId": "qFcvv1GxOi4",
+      "bookId": "g-kmBNuB3N4",
+      "addedAt": "2026-05-30",
+      "id": "j3kOdoO8HJA"
+    },
+    {
+      "userId": "qFcvv1GxOi4",
+      "bookId": "ZvqZQyqQ4_Y",
+      "addedAt": "2026-05-30",
+      "id": "3Iaocg_4fG4"
+    }
+  ],
+  "progress": [
+    {
+      "id": "1",
+      "userId": "1",
+      "bookId": "1",
+      "currentPage": 88,
+      "totalPages": 256,
+      "percentage": 34,
+      "lastRead": "2026-01-15"
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "bookId": "3",
+      "currentPage": 15,
+      "totalPages": 208,
+      "percentage": 7,
+      "lastRead": "2026-01-12"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "1",
+      "userId": "1",
+      "bookId": "1",
+      "page": 42,
+      "text": "Olhos de ressaca, olhos de cigana oblíqua e dissimulada.",
+      "note": "A famosa descrição dos olhos de Capitu",
+      "color": "gold",
+      "createdAt": "2026-01-15"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Ficção"
+    },
+    {
+      "id": "2",
+      "name": "Drama"
+    },
+    {
+      "id": "3",
+      "name": "Poesia"
+    },
+    {
+      "id": "4",
+      "name": "Romance"
+    },
+    {
+      "id": "5",
+      "name": "História"
+    },
+    {
+      "id": "6",
+      "name": "Ciência"
+    },
+    {
+      "id": "7",
+      "name": "Filosofia"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
